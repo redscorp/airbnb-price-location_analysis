@@ -1,2 +1,4 @@
-pandas
-matplotlib
+Python 3.x
+Pandas
+Matplotlib
+Seaborn
