@@ -1,27 +1,52 @@
-# airbnb_price-location_analysis
+# Airbnb price analysis
 
-## Overview
-This project analyzes airbnb data for 3 major cities (Barcelona, Berlin, Paris). focusing on price trends, neighbourhood pricing, accommodation types, and correlations with reviews and minimal stay. Visualisations include price comparisons, most expensive and cheapest districts and insights into other factors influencing rental pricing.
+## Objective
+This project analyzes Airbnb listings for three major cities (Barcelona, Berlin, Paris). The goal of this project is to identify key factors infuencing price and identify accomodation patterns.
 
-## Objectives
-- Compare average price rentals across cities
-- identify most and least expensive neighbourhoods
-- analyze room types and their distribution
-- explore correlations between price, number of reviews, and minimum nights
+## Data
+The data can be found on Inside Airbnb website, which contains publicly available information about listings, such as:
+- price
+- room type
+- neighborhood (district, coordinates)
+- minimum nights
+- number of reviews
+- whether host is a superhost
+- host response time
 
-## Technologies
-- Python (pandas, matplotlib)
-- Data [Inside Airbnb](http://insideairbnb.com/get-the-data.html)
+Datasets from 3 cities were merged together to form a single dataset with an additional city identifier
 
-## Files
-- project.py main code
-- README.md this file
-- requirements.txt list of dependancies
+## Methods
+The analysis includes following steps:
+- Data cleaning (price conversion, missing values)
+- Removal of outliers using IQR method
+- Explaratory data analysis
+- Correlation analysis
+- Linear regression
+- Visualization using Matplotlib
 
 ## Key findings
-- After removing outliers, average prices are highest in Paris.
-- Entire home/apartment is the most popular room type across all cities.
-- Number of reviews does not strongly correlate with price.
+- Average prices between cities differ significantly
+- Room type is one of the strongest predictors of price
+- Price shows week correlation with number of reviews
 
-## 🧠 Author
-Artem Aleshin — BSc Business Management with Business Analytics, Lancaster University Leipzig
+## Business insights
+- Hotel rooms cost is highest on average, meaning higher revenue for hosts
+- Pricing differs by district, which should be used to analyze to calculate profitability
+- Each factor should be considered (with its weight), when calculating the approximate rental price, in order to calculate profitability
+
+## Limitattions
+- Data represents only a snapshot in time, without analysis over time
+- Seasonal effetcs are not captured
+- Analysis focuses only on 3 big european cities
+
+## Tools
+- Python (JupiterLab)
+- NumPy, Pandas
+- Matplotlib, Seaborn
+- SciPy (statistical tests)
+- scikit-learn (preprocessing, regression, clustering)
+- UMAP 
+- Catboost 
+
+## Author
+Artem Aleshin BSc student Business management and Business analytics, Lancaster University
