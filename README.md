@@ -14,6 +14,7 @@ The data can be found on Inside Airbnb website, which contains publicly availabl
 - host response time
 
 Datasets from 3 cities were merged together to form a single dataset with an additional city identifier
+Data could be downloaded from here https://insideairbnb.com/get-the-data/
 
 ## Methods
 The analysis includes following steps:
