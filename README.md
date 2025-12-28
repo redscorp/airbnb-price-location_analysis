@@ -49,4 +49,6 @@ The analysis includes following steps:
 - Catboost 
 
 ## Author
-Artem Aleshin BSc student Business management and Business analytics, Lancaster University
+Artem Aleshin,
+BSc student Business management and Business analytics,
+Lancaster University
