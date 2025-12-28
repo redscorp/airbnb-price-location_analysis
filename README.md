@@ -52,5 +52,7 @@ The analysis includes following steps:
 
 ## Author
 Artem Aleshin,
+
 BSc student Business management and Business analytics,
+
 Lancaster University
