@@ -54,5 +54,7 @@ The analysis includes following steps:
 Artem Aleshin,
 
 BSc student Business management and Business analytics,
-
 Lancaster University
+
+MSc student Business Analytics & Artificial Intelligence 
+Warwick university (Warwick Business School)
