@@ -56,5 +56,5 @@ Artem Aleshin,
 BSc student Business management and Business analytics,
 Lancaster University
 
-MSc student Business Analytics & Artificial Intelligence 
-Warwick university (Warwick Business School)
+MSc student Business Analytics & Artificial Intelligence, 
+Warwick University (Warwick Business School)
